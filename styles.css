@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: LightGray; /* Remove later! */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+}
+div {
+    border: 1px solid Chocolate; /* Remove later! */
+    display: block;
+}
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.top-navigation > .content {
+    width: 46rem;
+    height: 4.375rem;
+    margin: 0 auto;
+}
+.top-navigation > .content > .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem; 
+}
+.top-navigation > .content > .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation > .content > .links > li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation > .content > .logo {
+    height: 4.375rem;
+}
+a:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.introduction {
+    background-image: url('first-background copy.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 45.938rem;
+    overflow: auto;
+}
+introduction > .content {
+    width: 46rem;
+    height: 4.375rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+.introduction > .content > h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction > .content > h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction > .content > .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+button {
+    width: 9.668rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #ff3300;
+}
+
