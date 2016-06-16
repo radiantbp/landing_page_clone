@@ -5,7 +5,6 @@ html {
     box-sizing: inherit;
 }
 body {
-    background-color: LightGray; /* Remove later! */
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #838994;
@@ -13,9 +12,9 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 div {
-    border: 1px solid Chocolate; /* Remove later! */
     display: block;
 }
+/* --------------------top nav bar--------------------- */
 .top-navigation {
     background-color: #fff;
     position: fixed;
@@ -50,6 +49,7 @@ a:hover {
     cursor: pointer;
     color: #333333;
 }
+/* -------------------main image----------------------- */
 .introduction {
     background-image: url('first-background copy.jpg');
     background-position: center bottom;
@@ -96,5 +96,85 @@ button {
 button:hover {
     cursor: pointer;
     background-color: #ff3300;
+}
+/* ------------------main content---------------------- */
+.cases {
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.cases > .content {
+    margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+ul {
+    list-style: none;
+}
+.cases > .content > .devices > li {
+    width: 33.3333333%;
+    float: left;
+}
+/* -------------------footer---------------------- */
+.social {
+    background-color: white;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social > .content {
+    padding: 0 0.938;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social > .content > .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social > .content > .icons > .twitter {
+    color: #55acee;
+}
+.social > .content > .icons > .facebook {
+    color: #4c66a4;
+}
+.social > .content > .icons > .instagram {
+    color: #3f729b;
+}
+.social > .content > .icons > .twitter > .fa-twitter,
+.social > .content > .icons > .facebook > .fa-facebook,
+.social > .content > .icons > .instagram > .fa-instagram {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.social > .content > .icons > .twitter > .fa-twitter:before {
+    content: "\f099";
+}
+.social > .content > .icons > .twitter > .fa-facebook:before {
+    content: "\f09a";
+}
+.social > .content > .icons > .twitter > .fa-instagram:before {
+    content: "\f16d";
 }
 
